@@ -1,6 +1,7 @@
 # passgen
 
-/home/user/Pictures/Screenshots/Screenshot From 2026-10-27 22-39-27.png
+<img width="574" height="180" alt="Screenshot From 2026-10-27 22-39-27" src="https://github.com/user-attachments/assets/feebb965-07d9-4d8d-97d0-f7965e331287" />
+
 
 Консольный генератор паролей на PHP. Криптостойкий рандом, минимум зависимостей — только PHP.
 
