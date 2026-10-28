@@ -13,9 +13,39 @@ php passgen.php 24           # пароль на 24 символа
 php passgen.php 24 --no-sym  # без спецсимволов
 ```
 
-## Требования
+## Установка
 
-- PHP 8.1+
+Требуется **PHP 8.1+**. Проверить версию:
+
+```bash
+php -v
+```
+
+### Вариант 1 — запуск из папки (без установки)
+
+```bash
+git clone https://github.com/linux15404/passgen.git
+cd passgen
+php passgen.php              # работает сразу
+```
+
+### Вариант 2 — поставить как команду `passgen`
+
+```bash
+git clone https://github.com/linux15404/passgen.git
+cd passgen
+chmod +x passgen.php
+sudo ln -s "$PWD/passgen.php" /usr/local/bin/passgen   # или в ~/.local/bin без sudo
+
+passgen                       # теперь работает откуда угодно
+passgen 24 --no-sym
+```
+
+### Тесты
+
+```bash
+php tests/run.php
+```
 
 ## Почему random_int?
 
