@@ -41,6 +41,8 @@ passgen                       # теперь работает откуда уг�
 passgen 24 --no-sym
 ```
 
+(если не запускается - php passgen.php)
+
 ### Тесты
 
 ```bash
